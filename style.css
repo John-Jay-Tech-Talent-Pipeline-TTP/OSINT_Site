@@ -104,17 +104,46 @@ table {
 }
 
 .project-section {
-  padding: 100px;
+  padding: 80px;
   background-color: #fbf6e9;
   text-align: center;
 }
 
-.tool-header {
-  height: 25%;
+.about-header {
+  height: 100%;
   width: 100%; 
-  background-image: url("https://cdn.pixabay.com/photo/2016/09/13/11/04/browser-1666982_1280.png");
+  background-image: url("https://images.unsplash.com/photo-1596443686812-2f45229eebc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   padding: 100px;
+}
+
+.more-header {
+  height: 25%;
+  width: 100%; 
+  background-image: url("https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 100px;
+}
+
+.team-section {
+  padding: 80px;
+  background-color: #fbf6e9;
+  text-align: center;
+}
+
+.team-table {
+  width: 50%;
+  height: auto;
+}
+
+
+
+.more-section {
+  padding: 80px;
+  background-color: #fbf6e9;
+  text-align: center;
 }
