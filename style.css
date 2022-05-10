@@ -5,7 +5,9 @@ body {
 }
 
 .landingpage {
-  background-image: url("https://images.unsplash.com/photo-1553895501-af9e282e7fc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-image: url("img/google.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100vh;
   
@@ -38,26 +40,20 @@ how to modify buttons: https://www.w3schools.com/howto/howto_css_outline_buttons
     
 how to position button at the bottom: https://localcoder.org/align-button-at-the-bottom-of-div-using-css*/
 .learnbtn {
+  margin: 600px 500px auto;
   position: absolute;
-  right:    5;
-  bottom:   0;
-  background-color: #f7e7ce;
-  width: 100px;
-  height: 50px;
-  border-radius: 20px;
-  border-color: #c3b091;
-
+  width: 250px;
+  height: 100px;
+  opacity: 0.7;
 }
 
+
 .projectbtn {
+  margin: 600px 900px auto;
   position: absolute;
-  left:    5;
-  bottom:   0;
-  background-color: #f7e7ce;  
-  width: 100px;
-  height: 50px;
-  border-radius: 20px;
-  border-color: #c3b091;
+  width: 250px;
+  height: 100px;
+  opacity: 0.7;
 }
 
 /*
@@ -99,19 +95,26 @@ table {
   */
 }
 
-.header {
+.tool-header {
   height: 25%;
-  width: 100%;
-  
+  width: 100%; 
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(251,246,233,1) 37%);
   text-align: center;
   padding: 100px;
 }
 
 .project-section {
-  padding: 20px;
+  padding: 100px;
   background-color: #fbf6e9;
   text-align: center;
 }
 
-
+.tool-header {
+  height: 25%;
+  width: 100%; 
+  background-image: url("https://cdn.pixabay.com/photo/2016/09/13/11/04/browser-1666982_1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 100px;
+}
