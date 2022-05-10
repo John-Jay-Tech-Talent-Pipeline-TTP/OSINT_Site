@@ -2,7 +2,6 @@ body {
   text-align: center;
   height: 100vh;
   width: 100%;
-  opacity: 1;
 }
 
 .landingpage {
@@ -59,17 +58,6 @@ how to position button at the bottom: https://localcoder.org/align-button-at-the
   height: 50px;
   border-radius: 20px;
   border-color: #c3b091;
-
-}
-
-    
-hr {
-  border: 0;
-  clear:both;
-  display:block;
-  width: 96%;               
-  background-color:#FFFF00;
-  height: 1px;
 }
 
 /*
@@ -87,6 +75,12 @@ iframe {
   height: 25vh;
 }
 
+img {
+  width: 45%;
+  height: 50vh;
+  margin: 15px;
+}
+
 table {
   /* 
   Centering content 
@@ -97,9 +91,27 @@ table {
   align-items: center;
   justify-content: center;
   border: 1;
-}
 
-
-td {
+  /* 
+  adjusts font size to screen size
   
+  Source: https://www.w3schools.com/howto/howto_css_responsive_text.asp
+  */
 }
+
+.header {
+  height: 25%;
+  width: 100%;
+  
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(251,246,233,1) 37%);
+  text-align: center;
+  padding: 100px;
+}
+
+.project-section {
+  padding: 20px;
+  background-color: #fbf6e9;
+  text-align: center;
+}
+
+
