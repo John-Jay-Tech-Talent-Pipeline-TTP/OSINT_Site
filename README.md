@@ -1,5 +1,5 @@
-# OSINTDorks Website 
-[Link to Project Website](https://OSINTSite.jjay-counselor.repl.co)
+# [OSINTDorks Website](https://OSINTSite.jjay-counselor.repl.co) 
+
 __Team Name: OSINTDorks__
 - __Team Members:__
   - Project Leader: Shirley Ni  
